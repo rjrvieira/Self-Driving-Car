@@ -1,0 +1,292 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.2.5f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/vieira/Desktop/Teste
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58996
+Successfully changed project path to: /Users/vieira/Desktop/Teste
+/Users/vieira/Desktop/Teste
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 34.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.5f1 (e2c53f129de5)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.2.5f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/vieira/Desktop/Teste/Assets
+GfxDevice: creating device client; threaded=0
+2021-02-28 12:42:46.611 Unity[12913:550229] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2021-02-28 12:42:46.611 Unity[12913:550229] Metal devices available: 1
+2021-02-28 12:42:46.611 Unity[12913:550229] 0: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2021-02-28 12:42:46.612 Unity[12913:550229] Using device Intel(R) Iris(TM) Plus Graphics 640 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 640
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.2.5f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.2.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.2.5f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56913
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.2.5f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.004444 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 33.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.874 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001236 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.284 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.2.5f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1103 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.8 MB.
+System memory in use after: 106.8 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1544.
+Total: 3.163136 ms (FindLiveObjects: 0.391355 ms CreateObjectMapping: 0.086368 ms MarkObjects: 2.519535 ms  DeleteObjects: 0.162517 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/New Material.mat
+  artifactKey: Guid(a60b9b4662caa4d46b5cf2df1a309fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material.mat using Guid(a60b9b4662caa4d46b5cf2df1a309fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4288721d101be777a7a6870a18519ab3') in 0.705488 seconds
+  Import took 0.715268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 241.805104 seconds.
+  path: Assets/New Render Texture.renderTexture
+  artifactKey: Guid(4fbca59fa1f674b419bb5a47e99522bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Render Texture.renderTexture using Guid(4fbca59fa1f674b419bb5a47e99522bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08cef017810466869907d30d37ce5473') in 1.044453 seconds
+  Import took 1.071801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.866699 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(706bb166514c04b5ca54e4e1f333ad7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(706bb166514c04b5ca54e4e1f333ad7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d42aed293c1e251a7be76a778c442f4') in 0.004085 seconds
+  Import took 0.007878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.078410 seconds.
+  path: Assets/Materials/New Render Texture.mat
+  artifactKey: Guid(5957b9f7d2fc74684957d270062cdbfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Render Texture.mat using Guid(5957b9f7d2fc74684957d270062cdbfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16cc0206a1515cd84513e3a98e7b3734') in 0.023735 seconds
+  Import took 0.027162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.562617 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(ad0b9f0b4ccde4092b0cfd6f76d2dd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(ad0b9f0b4ccde4092b0cfd6f76d2dd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a0e5fc346ed5df054ab3f60c5a1f3f5') in 0.017442 seconds
+  Import took 0.020859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 146.885769 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(ad0b9f0b4ccde4092b0cfd6f76d2dd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(ad0b9f0b4ccde4092b0cfd6f76d2dd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf63f8924cf0ed416428ad2628ee756') in 0.015508 seconds
+  Import took 0.018128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.144151 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs With Colliders
+  artifactKey: Guid(9d896aab1f5aa8946ae832f1329a6dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs With Colliders using Guid(9d896aab1f5aa8946ae832f1329a6dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f4765fd6ae42b9c02ce17f6f58359e8') in 0.002555 seconds
+  Import took 0.005387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.203906 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs With Colliders/Free_Racing_Car_Blue.prefab
+  artifactKey: Guid(a3dc0b97fa55a4943b2e6b5fc23df8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs With Colliders/Free_Racing_Car_Blue.prefab using Guid(a3dc0b97fa55a4943b2e6b5fc23df8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5513a8ed905e47291e4e1add1be9c0e') in 0.697808 seconds
+  Import took 0.700680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs With Colliders/Free_Racing_Car_Carbon.prefab
+  artifactKey: Guid(977989d2fe6005f45b5e95322f725b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs With Colliders/Free_Racing_Car_Carbon.prefab using Guid(977989d2fe6005f45b5e95322f725b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4135a73f2ed4f787285b35865f68f35') in 0.015397 seconds
+  Import took 0.017910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs With Colliders/Free_Racing_Car_Gray.prefab
+  artifactKey: Guid(916f361cf05b3c94493197a87a8aca11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs With Colliders/Free_Racing_Car_Gray.prefab using Guid(916f361cf05b3c94493197a87a8aca11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23052c8a51c79864d1009fc25b198dc0') in 0.028904 seconds
+  Import took 0.031781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs With Colliders/Free_Racing_Car_Yellow.prefab
+  artifactKey: Guid(e40225560c743554a9857b07e4b535db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs With Colliders/Free_Racing_Car_Yellow.prefab using Guid(e40225560c743554a9857b07e4b535db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b346e9c505b2291f349360cbe2a1cb') in 0.022840 seconds
+  Import took 0.026154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000462 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs With Colliders/Free_Racing_Car_Red.prefab
+  artifactKey: Guid(ba30d79575a9eff418d68635e8bd06d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs With Colliders/Free_Racing_Car_Red.prefab using Guid(ba30d79575a9eff418d68635e8bd06d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01eb84142cb5200e7a150afabc4f0af7') in 0.012621 seconds
+  Import took 0.015834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040351 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs With Colliders/Free_Racing_Car_Yellow.prefab
+  artifactKey: Guid(e40225560c743554a9857b07e4b535db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs With Colliders/Free_Racing_Car_Yellow.prefab using Guid(e40225560c743554a9857b07e4b535db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b346e9c505b2291f349360cbe2a1cb') in 0.026673 seconds
+  Import took 0.029094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1256.807593 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(73199a9daa3154f44a81f1a4cc8db89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(73199a9daa3154f44a81f1a4cc8db89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '961cb04ee99a1cde195a26d82234c3af') in 0.003668 seconds
+  Import took 0.013548 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000586 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.226 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1102 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.3 MB.
+System memory in use after: 129.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1593.
+Total: 2.126712 ms (FindLiveObjects: 0.240185 ms CreateObjectMapping: 0.064579 ms MarkObjects: 1.750531 ms  DeleteObjects: 0.070383 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 278.877636 seconds.
+  path: Assets/Scripts/CarController.cs
+  artifactKey: Guid(9722828352a8b44318ef24d6a29da81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CarController.cs using Guid(9722828352a8b44318ef24d6a29da81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2fa3165df5988b08a78aa5dec9c5b25') in 0.526424 seconds
+  Import took 0.529172 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002209 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.034 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1102 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.8 MB.
+System memory in use after: 133.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1595.
+Total: 2.854541 ms (FindLiveObjects: 0.221065 ms CreateObjectMapping: 0.043794 ms MarkObjects: 2.516932 ms  DeleteObjects: 0.070596 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 620.686417 seconds.
+  path: Assets/Scripts/GeneticManager.cs
+  artifactKey: Guid(040d67106fe6749e88e02cc227ebff8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GeneticManager.cs using Guid(040d67106fe6749e88e02cc227ebff8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5934d32a2846746b441c9fd0e039699') in 0.020979 seconds
+  Import took 0.028023 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000863 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.245 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1102 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.1 MB.
+System memory in use after: 134.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1597.
+Total: 2.751487 ms (FindLiveObjects: 0.455171 ms CreateObjectMapping: 0.081582 ms MarkObjects: 2.139787 ms  DeleteObjects: 0.072338 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.198670 seconds.
+  path: Assets/Scripts/GeneticManager.cs
+  artifactKey: Guid(040d67106fe6749e88e02cc227ebff8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GeneticManager.cs using Guid(040d67106fe6749e88e02cc227ebff8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96697b5cf37ca7003c4c75baf0ab105d') in 0.004665 seconds
+  Import took 0.007962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 190.940972 seconds.
+  path: Assets/Scripts/NNet.cs
+  artifactKey: Guid(60a8b1682063c4286a26bd37fad9ffb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NNet.cs using Guid(60a8b1682063c4286a26bd37fad9ffb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db4c27a645d674db5015baf8ed1833d') in 0.003683 seconds
+  Import took 0.005936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000502 seconds.
+  path: Assets/Scripts/NNet.cs
+  artifactKey: Guid(60a8b1682063c4286a26bd37fad9ffb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NNet.cs using Guid(60a8b1682063c4286a26bd37fad9ffb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db4c27a645d674db5015baf8ed1833d') in 0.002918 seconds
+  Import took 0.006664 seconds .
+
